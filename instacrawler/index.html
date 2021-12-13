@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/form.css" />
+  </head>
+
+  <div class="navbar">
+    <img
+      class="navbar-centered"
+      src="resources/Instagram-logo-with-brush-PNG-removebg-preview.png"
+      width="100px"
+      height="100px"
+    />
+  </div>
+  <div class="flex-container">
+    <div class="form_wrapper">
+      <form>
+        <label for="username">Enter profile username:</label><br />
+        <input type="text" id="username" name="username" /><br />
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+    <div class="form_wrapper">
+      <form action="track_username.php" method="POST">
+        <label for="username">Add profile to charts:</label><br />
+        <input type="text" id="username" name="username" /><br />
+        <button>Submit</button>
+      </form>
+    </div>
+  </div>
+</html>
